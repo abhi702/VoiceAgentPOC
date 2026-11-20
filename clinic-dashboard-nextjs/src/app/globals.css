@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+body { margin: 0; background: #080f1c; color: #e4eaf4; font-family: system-ui, sans-serif; }
+button, input { font: inherit; }
+button:disabled { opacity: .45; cursor: not-allowed; }
+button, input, select { outline-offset: 4px; }
+button:focus-visible, input:focus-visible, select:focus-visible { outline: 2px solid #5eead4; }
+.panel { border: 1px solid #26334a; border-radius: 20px; background: #101a2c; }
+.muted { color: #a4b3ca; }
+.button { padding: 11px 17px; border-radius: 10px; font-weight: 650; background: #2dd4bf; color: #042b2b; }
+.secondary { background: #24334d; color: #e4eaf4; }
+.danger { background: #9f2942; color: white; }
+.badge { border-radius: 99px; border: 1px solid #34425b; padding: 4px 10px; font-size: 12px; }
+.message { padding: 13px 15px; border-radius: 14px; background: #1b2c45; white-space: pre-wrap; overflow-wrap: anywhere; }
+.message.user { background: #123b3d; margin-left: 28px; }
+.meter { height: 70px; display: flex; justify-content: center; align-items: center; gap: 4px; }
+.meter span { width: 5px; border-radius: 4px; background: #2dd4bf; transition: height 80ms; }
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+th, td { padding: 12px 8px; text-align: left; border-bottom: 1px solid #26334a; }
+th { font-weight: 500; color: #a4b3ca; }
